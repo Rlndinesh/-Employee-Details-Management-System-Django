@@ -73,54 +73,63 @@ Make sure the following are installed:
 ## Setup Instructions
 
 ### 1. Clone the Project
-
+```
 git clone https://github.com/your-username/employee-details.git  
 cd mysite
-
+```
 ---
 
 ### 2. Create and Activate Virtual Environment
 
 Windows:
+```
 python -m venv env  
 
+```
+```
 env\Scripts\activate  
-
+```
 Mac/Linux:
+```
 python3 -m venv env  
-
+```
+```
 source env/bin/activate  
-
+```
 ---
 
 ### 3. Install Dependencies
 
+```
 pip install django  
-
+```
 (Optional)
+```
 pip install -r requirements.txt
-
+```
 ---
 
 ### 4. Apply Migrations
-
+```
 python manage.py makemigrations  
+```
+```
 python manage.py migrate  
-
+```
 ---
 
 ### 5. Create Superuser (Optional)
-
+```
 python manage.py createsuperuser  
-
+```
 Used to access Django Admin.
 
 ---
 
 ### 6. Run the Development Server
-
+```
 python manage.py runserver  
-
+```
 ---
 
 ## Access URLs
