@@ -6,7 +6,7 @@ The project includes an `employees` app, HTML templates, media handling, and use
 ---
 
 ## Project Structure
-
+```text
 mysite/
 │
 ├── employees/
@@ -38,6 +38,7 @@ mysite/
 ├── db.sqlite3
 └── manage.py
 
+```
 ---
 
 ## Features
